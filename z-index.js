@@ -1,7 +1,7 @@
 import * as Utils from '@flexui/utils';
 
 // 默认 z-index 值
-export var Z_INDEX = 1024;
+var Z_INDEX = 1024;
 
 /**
  * 设置初始 z-index 值
@@ -16,4 +16,15 @@ export function setZIndex(value) {
   }
 
   return Z_INDEX;
+}
+
+/**
+ * 获取当前 z-index 值
+ *
+ * @export
+ * @param {Boolean} increment 是否自增
+ * @returns {Number} Z_INDEX
+ */
+export function getZIndex(increment) {
+  return increment ? Z_INDEX++ : Z_INDEX;
 }
