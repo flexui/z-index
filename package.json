@@ -1,0 +1,27 @@
+{
+  "name": "@flexui/z-index",
+  "version": "0.0.1",
+  "description": "The flex ui z-index manager tools.",
+  "author": {
+    "name": "nuintun",
+    "email": "nuintun@qq.com"
+  },
+  "homepage": "https://flexui.github.io/z-index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flexui/z-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flexui/z-index/issues",
+    "email": "nuintun@qq.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "z-index"
+  ],
+  "jsnext:main": "z-index.js",
+  "dependencies": {
+    "@flexui/utils": "https://github.com/flexui/utils/archive/master.tar.gz"
+  },
+  "readmeFilename": "README.md"
+}
